@@ -29,7 +29,7 @@ welch <- function(x,y){
     }
   }
 
-#Si el tamaño de alguna muestra es al menos 30, se devuelve un error.
+#Si  el tamaño de alguna muestra es al menos 30, se devuelve un error.
   for(i in 1:2){
     if(length(muestras[[i]]) >= 30){
       stop(paste("La muestra", names(muestras)[i], "es igual o mayor que 30"))
