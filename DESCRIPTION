@@ -1,0 +1,13 @@
+Package: welchMTE
+Type: Package
+Title: Funci?n delta de Welch
+Version: 0.1.0
+Author: Edu Jose
+Maintainer: Edu Jose <vattico@gmail.com>
+Description: Este paquete incluye una adaptacion para calcular la delta de 
+  Welch
+License: Alguna?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat
