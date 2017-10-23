@@ -15,7 +15,7 @@ delta, el cual se utiliza para determinar los grados de libertad adecuados
 para una t de student a la hora de realizar la aproximacion de Welch.
 }
 \examples{
-#Testeo con las muestras presentes en los apuntes del tema 2
+#Testeo con las muestras presentes en los apuntes del tema 3 sobre intervalos de confianza.
 x <- c(31, 18, 17, 16, 37, 16, 32, 13, 14, 49, 25, 19, 13, 32, 27)
 y <- c(15, 17, 13, 25, 22, 20, 24, 12, 23, 15, 20, 18)
 
