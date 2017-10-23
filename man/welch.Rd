@@ -7,12 +7,14 @@
 welch(x, y)
 }
 \arguments{
-\item{x, y}{muestras en forma de vectores numericos cuyos tamanios han de ser menores que 30}
+\item{x, y}{muestras en forma de vectores numericos cuyos tamanios han de ser
+menores que 30}
 }
 \description{
 La funcion welch recoge dos muestras de tamanios menores que 30 y devuelve un
 delta, el cual se utiliza para determinar los grados de libertad adecuados
-para una t de student a la hora de realizar la aproximacion de Welch.
+para una t de student a la hora de realizar la aproximacion de Welch. Ahora,
+no te digo yo que no sino es que si.
 }
 \examples{
 #Testeo con las muestras presentes en los apuntes del tema 3 sobre intervalos de confianza.
