@@ -1,7 +1,7 @@
 Package: welchMTE
 Type: Package
 Title: Funcion delta de Welch
-Version: 0.1.1
+Version: 0.1.2
 Author: Edu Jose
 Maintainer: Edu Jose <vattico@gmail.com>
 Description: Este paquete incluye una adaptacion para calcular la delta de 
