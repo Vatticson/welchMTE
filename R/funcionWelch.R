@@ -32,11 +32,11 @@ welch <- function(x,y){
   }
 
 #Si  el tamaño de alguna muestra es al menos 30, se devuelve un error.
-  for(i in 1:2){
-    if(length(muestras[[i]]) >= 30){
-      stop(paste("La muestra", names(muestras)[i], "es igual o mayor que 30"))
-    }
+
+  if(length(x) >= 30 & length(y) >= 30){
+    stop("Ambas muestras son mayores o iguales que 30. Utiliza otro estadístico pivote")
   }
+
 
 #Cálculo de grados de libertad de cada una de las muestras
   n <- length(x)
